@@ -27,9 +27,9 @@ export const routes: Routes = [
           import('../calculadora/calculadora.page').then((m) => m.CalculadoraPage),
       },
       {
-        path: 'tab3',
+        path: 'QR',
         loadComponent: () =>
-          import('../tab3/tab3.page').then((m) => m.Tab3Page),
+          import('../paginaqr/paginaqr.page').then((m) => m.PaginaqrPage),
       },
       {
         path: '',
